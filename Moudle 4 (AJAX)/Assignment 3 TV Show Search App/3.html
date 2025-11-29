@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4: TV Show Finder</title>
+    <!-- Connects to 3.js -->
+    <script src="3.js" defer></script>
+    <style>
+        /* Basic styling to make the results look organized */
+        article {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            max-width: 600px;
+            background-color: #f9f9f9;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TV Show Finder</h1>
+
+    <!-- Search Form -->
+    <form id="search-form">
+        <input id="query" name="q" type="text" placeholder="Enter TV Show name (e.g. 'Dome')">
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Results will appear here -->
+    <div id="results"></div>
+</body>
+</html>
